@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: darkcyan;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ste{
+    position: absolute;
+    top: 25%;
+
+    font-size: 70px;
+}
+.bt1{
+    position: absolute;
+    border-radius: 5%;
+    top: 60%;
+    left: 10%;
+}
+.bt2{
+    position: absolute;
+    border-radius: 5%;
+    top: 60%;
+    right: 10%;
+}
+.rst{
+    position: absolute;
+    border-radius: 5%;
+    top:80%;
+
+}

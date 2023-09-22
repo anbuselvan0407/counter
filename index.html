@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="box">
+        <div class="ste"><span id="count">0</span></div>
+        <button class="bt1" onclick=handlincreament()>Increament</button>
+        <button class="bt2" onclick=handldecreament()>Dectreament</button>
+        <button class="rst" onclick=rest()>Reset</button>
+    </div>
+    <script>
+        let count=0;
+        const handlincreament=()=>{
+            count++;
+            document.getElementById("count").innerHTML=count;
+        }
+        const handldecreament=()=>{
+            count--;
+            document.getElementById("count").innerHTML=count;
+        }
+        const rest=()=>{
+            count=0;
+            document.getElementById("count").innerHTML=count;
+        }
+    </script>
+</body>
+</html>
